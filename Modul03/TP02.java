@@ -11,7 +11,7 @@ public class TP02 {
         int hargaPerbarang = inputScanner.nextInt();
         int totalBelanja = jumlahPerbarang * hargaPerbarang;
 
-        System.out.println("Hi , " + namaPembeli + ". Total belanja adalah " + totalBelanja + " rupiah.");
+        System.out.println("Hi, " + namaPembeli + ". Total belanja adalah " + totalBelanja + " rupiah.");
 
         inputScanner.close();
 
