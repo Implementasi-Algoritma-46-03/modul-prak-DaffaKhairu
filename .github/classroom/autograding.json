@@ -3,7 +3,7 @@
     {
       "name": "Jurnal01a",
       "setup": "javac Modul03/Jurnal01.java",
-      "run": "java java -cp Modul03 Jurnal01",
+      "run": "java -cp Modul03 Jurnal01",
       "input": "4520",
       "output": "4\n520",
       "comparison": "included",
@@ -32,17 +32,17 @@
     },
     {
       "name": "Jurnal02b",
-      "setup": "javac Jurnal02.java",
+      "setup": "javac Modul03/Jurnal02.java",
       "run": "java -cp Modul03 Jurnal02",
       "input": "40 50 45",
-      "output": "45.00",
+      "output": "Nilai rata-rata: 45.00",
       "comparison": "included",
       "timeout": 10,
       "points": 10
     },
     {
       "name": "Jurnal03a",
-      "setup": "javac Jurnal03.java",
+      "setup": "javac Modul03/Jurnal03.java",
       "run": "java -cp Modul03 Jurnal03",
       "input": "87 81 76",
       "output": "80.50\nLulus MK: true",
@@ -51,7 +51,7 @@
       "points": 10
     },{
       "name": "Jurnal03b",
-      "setup": "javac Jurnal03.java",
+      "setup": "javac Modul03/Jurnal03.java",
       "run": "java -cp Modul03 Jurnal03",
       "input": "70 55 33",
       "output": "49.95\nLulus MK: false",
@@ -61,7 +61,7 @@
     },
     {
       "name": "TP01a",
-      "setup": "javac TP01.java",
+      "setup": "javac Modul03/TP01.java",
       "run": "java -cp Modul03 TP01",
       "input": "250000 25000 30",
       "output": "1000000",
@@ -71,7 +71,7 @@
     },
     {
       "name": "TP01b",
-      "setup": "javac TP01.java",
+      "setup": "javac Modul03/TP01.java",
       "run": "java -cp Modul03 TP01",
       "input": "500000 10000 30",
       "output": "800000",
@@ -81,17 +81,17 @@
     },
     {
       "name": "TP02a",
-      "setup": "javac TP02.java",
+      "setup": "javac Modul03/TP02.java",
       "run": "java -cp Modul03 TP02",
       "input": "Dira 5 2000",
-      "output": "Hi, Dira. Total belanja adalah 10000 rupiah",
+      "output": "Hi, Dira. Total belanja adalah 10000 rupiah.",
       "comparison": "included",
       "timeout": 10,
       "points": 10
     },
     {
       "name": "TP03a",
-      "setup": "javac TP03.java",
+      "setup": "javac Modul03/TP03.java",
       "run": "java -cp Modul03 TP03",
       "input": "12 3",
       "output": "3\n0",
@@ -101,7 +101,7 @@
     },
     {
       "name": "TP03b",
-      "setup": "javac TP03.java",
+      "setup": "javac Modul03/TP03.java",
       "run": "java -cp Modul03 TP03",
       "input": "20 2",
       "output": "6\n2",
