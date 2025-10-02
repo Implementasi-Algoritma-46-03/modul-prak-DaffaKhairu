@@ -8,7 +8,7 @@ public class Jurnal02 {
         int nilai3 = input.nextInt();
 
         double rata = (nilai1 + nilai2 + nilai3) / 3.0;
-        System.out.printf("Nilai rata-rata : %.2f\n", rata);
+        System.out.printf("Nilai rata-rata: %.2f\n", rata);
 
     }
 }
