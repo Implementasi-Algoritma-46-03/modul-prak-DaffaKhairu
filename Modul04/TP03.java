@@ -1,23 +1,17 @@
 import java.util.Scanner;
-
 public class TP03 {
 
     public static void main(final String[] args) {
-        // Kerjakan soalnya di sini
-         Scanner inputScanner = new Scanner(System.in);
-        
-        int jumlahPermen = inputScanner.nextInt();
-        int jumlahTeman = inputScanner.nextInt();
+        Scanner s = new Scanner(System.in);
+        int d = s.nextInt();
+        int r = s.nextInt();
+        int i = s.nextInt();
 
-        int totalOrang = jumlahTeman + 1;
-
-        int jatahPerOrang = jumlahPermen / totalOrang;
-        int sisaPermen = jumlahPermen % totalOrang;
-
-        // output
-        System.out.println(jatahPerOrang);
-        System.out.println(sisaPermen);
-
-        inputScanner.close();
+        if (d > r && d > i)
+            System.out.println("Dira");
+        else if (r > d && r > i)
+            System.out.println("Radi");
+        else
+            System.out.println("Idar");
     }
 }
