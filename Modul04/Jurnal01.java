@@ -7,9 +7,9 @@ public class Jurnal01 {
         int n = in.nextInt();
 
         if (24 % n == 0 && 56 % n == 0) {
-            System.out.println("Faktor dari 24 dan 56");
+            System.out.println("faktor dari 24 dan 56");
         }else {
-            System.out.println("Bukan Faktor dari 24 dan 56");
+            System.out.println("Bukan faktor dari 24 dan 56");
         }
         
     }
