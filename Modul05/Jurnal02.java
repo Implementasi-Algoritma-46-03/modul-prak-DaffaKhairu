@@ -8,25 +8,25 @@ public class Jurnal02 {
         
         int hariApa = 0;
         switch (n) {
-            case "senin":
+            case "Senin":
                 hariApa = 1;
                 break;
-            case "selasa":
+            case "Selasa":
                 hariApa = 2;
                 break;
-            case "rabu":
+            case "Rabu":
                 hariApa = 3;
                 break;
-            case "kamis":
+            case "Kamis":
                 hariApa = 4;
                 break;
-            case "jumat":
+            case "Jumat":
                 hariApa = 5;
                 break;
-            case "sabtu":
+            case "Sabtu":
                 hariApa = 6;
                 break;
-            case "minggu":
+            case "Minggu":
                 hariApa = 7;
                 break;
             default:
@@ -40,25 +40,25 @@ public class Jurnal02 {
     String namaHari;
         switch (harinya) {
             case 1:
-                namaHari = "senin";
+                namaHari = "Senin";
                 break;
             case 2:
-                namaHari = "selasa";
+                namaHari = "Selasa";
                 break;
             case 3:
-                namaHari = "rabu";
+                namaHari = "Rabu";
                 break;
             case 4:
-                namaHari = "kamis";
+                namaHari = "Kamis";
                 break;
             case 5:
-                namaHari = "jumat";
+                namaHari = "Jumat";
                 break;
             case 6:
-                namaHari = "sabtu";
+                namaHari = "Sabtu";
                 break;
             case 7:
-                namaHari = "minggu";
+                namaHari = "Minggu";
                 break;
             default:
                 namaHari = "Hari tidak ditemukan";
