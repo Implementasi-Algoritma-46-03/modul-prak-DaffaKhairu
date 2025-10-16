@@ -17,15 +17,15 @@ public class Jurnal01 {
                 hargaMakanan = 15;
                 break;
             case 2:
-                namaMakanan = "Mie Goreng/nyemek ";
+                namaMakanan = "Mie Goreng / nyemek ";
                 hargaMakanan = 18;
                 break;
             case 3:
-                namaMakanan = "Kwetiau Goreng/Nyemek ";
+                namaMakanan = "Kwetiau Goreng / Nyemek ";
                 hargaMakanan = 20;
                 break;
             case 4:
-                namaMakanan = "Capcay Goreng/kuah ";
+                namaMakanan = "Capcay Goreng / kuah ";
                 hargaMakanan = 23;
                 break;
                    default:
