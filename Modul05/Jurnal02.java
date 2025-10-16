@@ -29,13 +29,11 @@ public class Jurnal02 {
             case "Minggu":
                 hariApa = 7;
                 break;
-            default:
-                hariApa = 0;
-                break;
+          
         }
 
-    int totalHari = hariApa + h;
-    int harinya = totalHari % 7;
+    int totalHari =  h%7;
+    int harinya = totalHari + hariApa ;
 
     String namaHari;
         switch (harinya) {
