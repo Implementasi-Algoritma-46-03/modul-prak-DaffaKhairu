@@ -1,284 +1,174 @@
 {
   "tests": [
     {
-      "name": "Jurnal01",
-      "setup": "javac Modul08/Jurnal01.java",
-      "run": "java -cp Modul08 Jurnal01",
-      "input": "100 20",
-      "output": "25.000",
+      "name": "Jurnal01a",
+      "setup": "javac Modul09/Jurnal01.java",
+      "run": "java -cp Modul09 Jurnal01",
+      "input": "",
+      "output": "1 4 9 16 25 36 49 64 81 100",
       "comparison": "included",
       "timeout": 10,
-      "points": 0
-    },
-    {
-      "name": "Jurnal01b",
-      "setup": "javac Modul08/Jurnal01.java",
-      "run": "java -cp Modul08 Jurnal01",
-      "input": "100 50",
-      "output": "3.125",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 0
-    },
-    {
-      "name": "Jurnal01c",
-      "setup": "javac Modul08/Jurnal01.java",
-      "run": "java -cp Modul08 Jurnal01",
-      "input": "20 50",
-      "output": "0.625",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 0
-    },
-    {
-      "name": "Jurnal01d",
-      "setup": "javac Modul08/Jurnal01.java",
-      "run": "java -cp Modul08 Jurnal01",
-      "input": "30 70",
-      "output": "0.234",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 15
-    },
-    {
-      "name": "Jurnal01e",
-      "setup": "javac Modul08/Jurnal01.java",
-      "run": "java -cp Modul08 Jurnal01",
-      "input": "10 90",
-      "output": "0.020",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 15
-    },
-    {
-      "name": "Jurnal02a",
-      "setup": "javac Modul08/Jurnal02.java",
-      "run": "java -cp Modul08 Jurnal02",
-      "input": "4 1 5 7 7 9 9 3 6 1 0",
-      "output": "5.20",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 0
-    },
-    {
-      "name": "Jurnal02b",
-      "setup": "javac Modul08/Jurnal02.java",
-      "run": "java -cp Modul08 Jurnal02",
-      "input": "3 5 6 3 8 6 9 5 6 1 9 1 1 4 9 3 2 9 4 3 0",
-      "output": "4.85",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 0
-    },
-    {
-      "name": "Jurnal02c",
-      "setup": "javac Modul08/Jurnal02.java",
-      "run": "java -cp Modul08 Jurnal02",
-      "input": "2 3 1 3 5 9 2 1 8 0",
-      "output": "3.78",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 15
-    },
-    {
-      "name": "Jurnal02d",
-      "setup": "javac Modul08/Jurnal02.java",
-      "run": "java -cp Modul08 Jurnal02",
-      "input": "1 1 1 1 1 1 1 0",
-      "output": "1.00",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 15
+      "points": 20
     },
     {
       "name": "Jurnal03a",
-      "setup": "javac Modul08/Jurnal03.java",
-      "run": "java -cp Modul08 Jurnal03",
-      "input": "1",
+      "setup": "javac Modul09/Jurnal03.java",
+      "run": "java -cp Modul09 Jurnal03",
+      "input": "81",
+      "output": "BUKAN",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+   {
+      "name": "Jurnal03b",
+      "setup": "javac Modul09/Jurnal03.java",
+      "run": "java -cp Modul09 Jurnal03",
+      "input": "89",
       "output": "YA",
       "comparison": "included",
       "timeout": 10,
-      "points": 0
+      "points": 10
+    },
+    {
+      "name": "Jurnal02a",
+      "setup": "javac Modul09/Jurnal02.java",
+      "run": "java -cp Modul09 Jurnal02",
+      "input": "10",
+      "output": "25",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
     },
     {
       "name": "Jurnal03b",
-      "setup": "javac Modul08/Jurnal03.java",
-      "run": "java -cp Modul08 Jurnal03",
-      "input": "123",
-      "output": "BUKAN",
+      "setup": "javac Modul09/Jurnal03.java",
+      "run": "java -cp Modul09 Jurnal03",
+      "input": "7",
+      "output": "16",
       "comparison": "included",
       "timeout": 10,
-      "points": 0
+      "points": 10
     },
     {
       "name": "Jurnal03c",
-      "setup": "javac Modul08/Jurnal03.java",
-      "run": "java -cp Modul08 Jurnal03",
-      "input": "145",
-      "output": "YA",
+      "setup": "javac Modul09/Jurnal03.java",
+      "run": "java -cp Modul09 Jurnal03",
+      "input": "11",
+      "output": "36",
       "comparison": "included",
       "timeout": 10,
-      "points": 0
+      "points": 10
     },
     {
-      "name": "Jurnal03d",
-      "setup": "javac Modul08/Jurnal03.java",
-      "run": "java -cp Modul08 Jurnal03",
-      "input": "578",
-      "output": "BUKAN",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 0
-    },
-    {
-      "name": "Jurnal03e",
-      "setup": "javac Modul08/Jurnal03.java",
-      "run": "java -cp Modul08 Jurnal03",
-      "input": "40585",
-      "output": "YA",
+      "name": "TP01a",
+      "setup": "javac Modul09/TP01.java",
+      "run": "java -cp Modul09 TP01",
+      "input": "8",
+      "output": "1 Ganjil\n2 Genap\n3 Ganjil\n4 Genap\n5 Ganjil\n6 Genap\n7 Ganjil\n8 Genap\n",
       "comparison": "included",
       "timeout": 10,
       "points": 5
     },
     {
-      "name": "Jurnal03f",
-      "setup": "javac Modul08/Jurnal03.java",
-      "run": "java -cp Modul08 Jurnal03",
-      "input": "2",
-      "output": "YA",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 3
-    },
-    {
-      "name": "Jurnal03g",
-      "setup": "javac Modul08/Jurnal03.java",
-      "run": "java -cp Modul08 Jurnal03",
-      "input": "3",
-      "output": "BUKAN",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 2
-    },
-    {
-      "name": "TP01a",
-      "setup": "javac Modul08/TP01.java",
-      "run": "java -cp Modul08 TP01",
-      "input": "60",
-      "output": "15",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 0
-    },
-    {
       "name": "TP01b",
-      "setup": "javac Modul08/TP01.java",
-      "run": "java -cp Modul08 TP01",
-      "input": "7654321",
-      "output": "270",
+      "setup": "javac Modul09/TP01.java",
+      "run": "java -cp Modul09 TP01",
+      "input": "3",
+      "output": "1 Ganjil\n2 Genap\n3 Ganjil\n",
       "comparison": "included",
       "timeout": 10,
       "points": 0
     },
     {
       "name": "TP01c",
-      "setup": "javac Modul08/TP01.java",
-      "run": "java -cp Modul08 TP01",
-      "input": "123",
-      "output": "45",
+      "setup": "javac Modul09/TP01.java",
+      "run": "java -cp Modul09 TP01",
+      "input": "5",
+      "output": "1 Ganjil\n2 Genap\n3 Ganjil\n4 Genap\n5 Ganjil\n",
       "comparison": "included",
       "timeout": 10,
       "points": 5
     },
     {
       "name": "TP01d",
-      "setup": "javac Modul08/TP01.java",
-      "run": "java -cp Modul08 TP01",
-      "input": "11111",
-      "output": "135",
+      "setup": "javac Modul09/TP01.java",
+      "run": "java -cp Modul09 TP01",
+      "input": "10",
+      "output": "1 Ganjil\n2 Genap\n3 Ganjil\n4 Genap\n5 Ganjil\n6 Genap\n7 Ganjil\n8 Genap\n9 Ganjil\n10 Genap\n",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+	{
+      "name": "TP02a",
+      "setup": "javac Modul09/TP02.java",
+      "run": "java  -cp Modul09 TP02",
+      "input": "d3 rpla cita mulia, citra mulia, karya mulia.",
+      "output": "16",
       "comparison": "included",
       "timeout": 10,
       "points": 5
     },
     {
       "name": "TP02a",
-      "setup": "javac Modul08/TP02.java",
-      "run": "java -cp Modul08 TP02",
-      "input": "123",
-      "output": "321",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 0
-    },
-    {
-      "name": "TP02b",
-      "setup": "javac Modul08/TP02.java",
-      "run": "java -cp Modul08 TP02",
-      "input": "9840769",
-      "output": "9670489",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 0
-    },
-    {
-      "name": "TP02c",
-      "setup": "javac Modul08/TP02.java",
-      "run": "java -cp Modul08 TP02",
-      "input": "48738",
-      "output": "83784",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5
-    },
-    {
-      "name": "TP02d",
-      "setup": "javac Modul08/TP02.java",
-      "run": "java -cp Modul08 TP02",
-      "input": "111111",
-      "output": "111111",
+      "setup": "javac Modul09/TP02.java",
+      "run": "java -cp Modul09 TP02",
+      "input": "belajar pemrograman itu asik",
+      "output": "11",
       "comparison": "included",
       "timeout": 10,
       "points": 5
     },
     {
       "name": "TP03a",
-      "setup": "javac Modul08/TP03.java",
-      "run": "java -cp Modul08 TP03",
-      "input": "4 1 5 7 7 9 9 3 6 1 0",
-      "output": "52",
+      "setup": "javac Modul09/TP03.java",
+      "run": "java -cp Modul09 TP03",
+      "input": "5",
+      "output": "120",
       "comparison": "included",
       "timeout": 10,
       "points": 0
     },
-    {
+	{
       "name": "TP03b",
-      "setup": "javac Modul08/TP03.java",
-      "run": "java -cp Modul08 TP03",
-      "input": "3 5 6 3 8 6 9 5 6 1 9 1 1 4 9 3 2 9 4 3 0",
-      "output": "97",
+      "setup": "javac Modul09/TP03.java",
+      "run": "java -cp Modul09 TP03",
+      "input": "9",
+      "output": "362880",
       "comparison": "included",
       "timeout": 10,
       "points": 0
     },
     {
       "name": "TP03c",
-      "setup": "javac Modul08/TP03.java",
-      "run": "java -cp Modul08 TP03",
-      "input": "4 2 4 7 9 1 2 4 0",
-      "output": "33",
+      "setup": "javac Modul09/TP03.java",
+      "run": "java -cp Modul09 TP03",
+      "input": "4",
+      "output": "24",
       "comparison": "included",
       "timeout": 10,
       "points": 5
     },
     {
       "name": "TP03d",
-      "setup": "javac Modul08/TP03.java",
-      "run": "java -cp Modul08 TP03",
-      "input": "1 1 1 1 1 0",
-      "output": "5",
+      "setup": "javac Modul09/TP03.java",
+      "run": "java -cp Modul09 TP03",
+      "input": "6",
+      "output": "720",
       "comparison": "included",
       "timeout": 10,
       "points": 5
-    }
+    },
+    {
+      "name": "TP03e",
+      "setup": "javac Modul09/TP03.java",
+      "run": "java -cp Modul09 TP03",
+      "input": "7",
+      "output": "5040",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    }   
   ]
 }
