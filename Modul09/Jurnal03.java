@@ -1,22 +1,25 @@
-import java.util.*;
+import java.util.Scanner;
+
 public class Jurnal03 {
-
-    public static void main(final String[] args) {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int angka = input.nextInt();
-
-        int angkaa = 0;
-        String hasil = null;
-        for (int i= 1; i <= angka; i++) {
-            if (angka % i == 0)
-            angkaa++;
+        int n = input.nextInt();
+        if (n <= 1) {
+            System.out.println("BUKAN");
+        } else { 
+            boolean prima = true;
+            for (int i = 2; i <= Math.sqrt(n); i++) {
+                if (n % i == 0) {
+                    prima = false;
+                    break;
+                }
+            }
+            if (prima) {
+                System.out.println("YA");
+            } else {
+                System.out.println("BUKAN");
+            }
         }
-
-        if (angkaa == 2)
-            hasil = "YA";
-        else 
-            hasil = "BUKAN";
-
-        System.out.println(hasil);
+        input.close();
     }
 }

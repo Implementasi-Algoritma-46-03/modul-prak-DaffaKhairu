@@ -1,11 +1,10 @@
-public class TP01 {
+public class Latsol {
     public static void main(String[] args) {
+        System.out.println("Mencetak Pola Angka");
 
-        int tinggi = 5;
-
-        for (int i = tinggi; i >= 1; i--) {
+        for (int i = 1; i <= 4; i++) {
             for (int j = 1; j <= i; j++) {
-                System.out.print("*");
+                System.out.print(i);
             }
             System.out.println();
         }

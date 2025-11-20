@@ -20,7 +20,7 @@ public class Jurnal03 {
             sum += faktorial;
             n /= 10;
         }
-
+            
         if (sum == original) {
             System.out.println("YA");
         } else {
