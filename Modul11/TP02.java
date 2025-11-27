@@ -4,11 +4,20 @@ import java.util.Scanner;
 public class TP02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int jumlah = input.nextInt();
+        int jumlah = Integer.parseInt(input.nextLine().trim());
         ArrayList<Integer> poin = new ArrayList<>();
 
-        for (int i = 0; i < jumlah; i++) {
-            poin.add(input.nextInt());
+        while (poin.size() < jumlah && input.hasNextLine()) {
+            String line = input.nextLine().trim();
+            if (line.isEmpty()) {
+                continue;
+            }
+            String[] bagian = line.split("\\s+");
+            for (String b : bagian) {
+                if (poin.size() < jumlah) {
+                    poin.add(Integer.parseInt(b));
+                }
+            }
         }
 
         for (int i = 0; i < poin.size(); i++) {
