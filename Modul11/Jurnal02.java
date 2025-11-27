@@ -1,6 +1,10 @@
-public class Jurnal02 {
+import java.util.Scanner;
 
-    public static void main(final String[] args) {
-        // Kerjakan soalnya di sini
+public class Jurnal02 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String kalimat = input.nextLine();
+        kalimat = kalimat.trim().replaceAll("\\s+", " ");
+        System.out.println(kalimat);
     }
 }
